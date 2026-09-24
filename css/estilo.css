@@ -1,0 +1,47 @@
+/* =========================================================
+   Práctica 7 - estilo.css
+   Estilos personalizados (complementan a Bootstrap)
+   ========================================================= */
+
+body {
+  background-color: #f7f9fc;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Tarjetas de cada sección */
+section.card {
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.35s ease; /* anima el cambio de fondo de la sección d */
+}
+
+/* Títulos de sección con una barra lateral de acento */
+section.card h2 {
+  border-left: 4px solid #0d6efd;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Mensajes de resultado */
+#parDatos,
+#parCalc {
+  min-height: 1.5rem;
+  transition: color 0.25s ease;
+}
+
+/* Elementos de la lista dinámica */
+#miLista .list-group-item {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#miLista .list-group-item:hover {
+  background-color: #f1f3f5;
+}
+
+/* Pie de página */
+footer {
+  border-top: 1px solid #e3e8ef;
+  margin-top: 2rem;
+}
